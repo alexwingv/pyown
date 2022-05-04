@@ -15,5 +15,5 @@ observation = mgr.weather_at_place(place)
 w = observation.weather
 temp = w.temperature('celsius') ["temp"]
 
-print("В городе " + place + " сейчас " + w.detailed_status )
+print("В городе " + place + " сейчас " + w.detailed_status)
 print("Температура сейчас в районе " + str(temp))
